@@ -1,0 +1,156 @@
+/* OVERALL
+div.th23-social.follow / .share
+	span.claim
+	span.buttons
+		a.button.xx-button
+			span.button-letter
+			span.button-text
+			span.service-count
+	span.total-count
+		span.count-follower / .count-shares
+			span.count
+		span.count-only
+*/
+.th23-social .claim {
+  display: block;
+}
+
+.th23-social .button {
+  /* Basis */
+  display: inline-block;
+  min-width: 1.8em;
+  height: 1.8em;
+  margin-right: .5em;
+  margin-bottom: .5em;
+  padding: 0 0.4em;
+  border-radius: 3px;
+  border: 1px solid #bbb;
+  text-align: center;
+  -webkit-transition: color .3s, background .3s;
+  transition: color .3s, background .3s;
+  cursor: pointer;
+  background: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  font-size: 1em;
+  vertical-align: middle;
+}
+.th23-social .button .button-letter {
+  line-height: calc(1.8em - 2px);
+  font-weight: bold;
+}
+.th23-social .button .button-text {
+  /* recommended to overwrite by theme setting for "screen-reader-text" class */
+  display: none;
+}
+.th23-social .button .service-count {
+  font-size: .8em;
+  font-weight: normal;
+  margin-left: .2em;
+  -webkit-transition: color .3s;
+  transition: color .3s;
+  color: #666;
+}
+.th23-social .button:hover, .th23-social .button:focus, .th23-social .button:active {
+  background-color: #777;
+  border: 1px solid transparent;
+}
+.th23-social .button:hover, .th23-social .button:hover .service-count, .th23-social .button:focus, .th23-social .button:focus .service-count, .th23-social .button:active, .th23-social .button:active .service-count {
+  color: #fff;
+}
+.th23-social .f-button {
+  /* Facebook */
+}
+.th23-social .f-button, .th23-social .f-button:visited {
+  color: #3b5998;
+}
+.th23-social .f-button:hover, .th23-social .f-button:focus, .th23-social .f-button:active {
+  color: #fff;
+  background-color: #3b5998;
+}
+.th23-social .t-button {
+  /* Twitter */
+}
+.th23-social .t-button, .th23-social .t-button:visited {
+  color: #1dcaff;
+}
+.th23-social .t-button:hover, .th23-social .t-button:focus, .th23-social .t-button:active {
+  color: #fff;
+  background-color: #1dcaff;
+}
+.th23-social .l-button {
+  /* LinkedIn */
+}
+.th23-social .l-button, .th23-social .l-button:visited {
+  color: #0077b5;
+}
+.th23-social .l-button:hover, .th23-social .l-button:focus, .th23-social .l-button:active {
+  color: #fff;
+  background-color: #0077b5;
+}
+.th23-social .x-button {
+  /* Xing */
+}
+.th23-social .x-button, .th23-social .x-button:visited {
+  color: #026466;
+}
+.th23-social .x-button:hover, .th23-social .x-button:focus, .th23-social .x-button:active {
+  color: #fff;
+  background-color: #026466;
+}
+.th23-social .i-button {
+  /* Instagram */
+}
+.th23-social .i-button, .th23-social .i-button:visited {
+  color: #c32aa3;
+}
+.th23-social .i-button:hover, .th23-social .i-button:focus, .th23-social .i-button:active {
+  color: #fff;
+  background-color: #c32aa3;
+}
+.th23-social .p-button {
+  /* Pinterest */
+}
+.th23-social .p-button, .th23-social .p-button:visited {
+  color: #c8232c;
+}
+.th23-social .p-button:hover, .th23-social .p-button:focus, .th23-social .p-button:active {
+  color: #fff;
+  background-color: #c8232c;
+}
+.th23-social .r-button {
+  /* RSS */
+}
+.th23-social .r-button, .th23-social .r-button:visited {
+  color: #f26522;
+}
+.th23-social .r-button:hover, .th23-social .r-button:focus, .th23-social .r-button:active {
+  color: #fff;
+  background-color: #f26522;
+}
+.th23-social .total-count .count {
+  font-weight: bold;
+}
+.th23-social .total-count .count-only {
+  display: none;
+}
+
+/* SHORTCODE or ENTRIES auto-insert
+article.entry.hentry
+	div.entry-content
+		[see overall]
+*/
+/* LISTS auto-insert
+div.th23-social-list
+	[see overall]
+*/
+/* WIDGET
+aside.widget.widget_th23_social_widget
+	div.th23-social-widget
+		h3.widget-title
+		p.widget-description
+		[see overall]
+*/
+.th23-social-widget .widget-description {
+  margin-bottom: .5em;
+}

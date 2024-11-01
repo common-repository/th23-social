@@ -1,0 +1,222 @@
+/* plugin option page */
+.th23-social-options h1 .icon {
+  width: auto;
+  height: 36px;
+}
+.th23-social-options h2:nth-child(n+3) {
+  /* options - section header */
+  margin-top: 2.5em;
+}
+.th23-social-options .form-table .description {
+  /* options - description */
+  display: block;
+}
+.th23-social-options .th23-social-screen-option-hide_description .description,
+.th23-social-options .th23-social-screen-option-hide_description .section-description {
+  /* options - hide descriptions */
+  display: none;
+}
+.th23-social-options .notice-description {
+  /* options - notices within description */
+  display: block;
+  padding: 5px 10px;
+  font-size: 13px;
+}
+@media screen and (min-width: 783px) {
+  .th23-social-options .child th {
+    /* options - children (on bigger screens) */
+    width: 175px;
+    padding-left: 25px;
+  }
+  .th23-social-options .sub-child th {
+    /* options - sub-children (on bigger screens) */
+    width: 150px;
+    padding-left: 50px;
+  }
+}
+.th23-social-options input + .unit,
+.th23-social-options select + .unit {
+  margin-left: 0.25em;
+}
+.th23-social-options div.option-template {
+  /* options template - scroll if to wide */
+  overflow-x: auto;
+}
+.th23-social-options table.option-template {
+  /* options template - table */
+  margin-top: 1em;
+  border-collapse: collapse;
+}
+.th23-social-options table.option-template th,
+.th23-social-options table.option-template td {
+  border: 1px solid lightgray;
+  padding: .8em .5em;
+  text-align: center;
+}
+.th23-social-options table.option-template th span.hint {
+  /* options template - header descriptions */
+  border-bottom: 1px dotted gray;
+  cursor: help;
+}
+.th23-social-options table.option-template input.regular-text {
+  /* options template - input fields */
+  min-width: 7em;
+  width: 100%;
+}
+.th23-social-options table.option-template tr[id$='-template'] {
+  /* option template - master input row */
+  display: none;
+}
+
+/* plugin information */
+div.th23-social-admin-about {
+  position: relative;
+  margin-top: 1.5em;
+  border: 1px solid #ccd0d4;
+  border-left: 4px solid #00a0d2;
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  padding: 1px 12px;
+}
+div.th23-social-admin-about .icon {
+  position: absolute;
+  top: calc(50% - 24px);
+  width: auto;
+  height: 48px;
+}
+div.th23-social-admin-about .icon + p {
+  margin-left: 64px;
+}
+div.th23-social-admin-about a {
+  text-decoration: none;
+}
+
+/* professional extension upload */
+#th23-social-pro-file {
+  position: absolute;
+  left: -9999px;
+  visibility: hidden;
+}
+
+label[for="th23-social-pro-file"] {
+  vertical-align: unset;
+  color: #0073aa;
+}
+.notice-error label[for="th23-social-pro-file"], .notice-warning label[for="th23-social-pro-file"] {
+  text-decoration: underline;
+}
+
+/* == customization: from here on plugin specific == */
+/* plugin options page and entry edit page - metabox */
+.th23-social-options .th23-social-image,
+#th23-social-meta-box .th23-social-image {
+  /* inner container */
+  position: relative;
+  margin: 1em 0;
+  line-height: 1;
+  max-width: 300px;
+}
+.th23-social-options .th23-social-image-add,
+#th23-social-meta-box .th23-social-image-add {
+  /* placeholder, if no image is selected */
+  text-align: center;
+  background: #eee;
+  border: 2px dashed #ccc;
+  padding: 4em 1em;
+}
+.th23-social-options .th23-social-image-preview,
+.th23-social-options .th23-social-image-size,
+#th23-social-meta-box .th23-social-image-preview,
+#th23-social-meta-box .th23-social-image-size {
+  /* adapt thumbnail size and size description to available space */
+  max-width: 100%;
+  height: auto;
+}
+.th23-social-options .th23-social-image-overlay,
+#th23-social-meta-box .th23-social-image-overlay {
+  /* initially hidden image overlay - holding action buttons */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  font-size: 1.1em;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px #000, -1px -1px 2px #000;
+}
+.th23-social-options .th23-social-image:hover .th23-social-image-overlay,
+#th23-social-meta-box .th23-social-image:hover .th23-social-image-overlay {
+  /* show overlay upon cursor over image */
+  visibility: initial;
+}
+.th23-social-options .th23-social-image-overlay > div,
+#th23-social-meta-box .th23-social-image-overlay > div {
+  /* split overlay columns */
+  width: 30%;
+  text-align: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+.th23-social-options .th23-social-image-add,
+.th23-social-options .th23-social-image-overlay > div,
+#th23-social-meta-box .th23-social-image-add,
+#th23-social-meta-box .th23-social-image-overlay > div {
+  -webkit-transition: all .1s ease-in;
+  transition: all .1s ease-in;
+}
+.th23-social-options .th23-social-image-add:hover,
+.th23-social-options .th23-social-image-overlay > div:hover,
+#th23-social-meta-box .th23-social-image-add:hover,
+#th23-social-meta-box .th23-social-image-overlay > div:hover {
+  /* highlighting buttons on hover */
+  text-shadow: 2px 2px 4px #fff, -2px -2px 4px #fff;
+  color: #0073aa;
+}
+.th23-social-options .th23-social-image-crop,
+.th23-social-options .th23-social-image-add,
+.th23-social-options .th23-social-image-change,
+.th23-social-options .th23-social-image-remove,
+#th23-social-meta-box .th23-social-image-crop,
+#th23-social-meta-box .th23-social-image-add,
+#th23-social-meta-box .th23-social-image-change,
+#th23-social-meta-box .th23-social-image-remove {
+  /* cursor upon hovering buttons */
+  cursor: pointer;
+}
+.th23-social-options .th23-social-message,
+#th23-social-meta-box .th23-social-message {
+  /* AJAX request result */
+  display: inline-block;
+  margin-bottom: 1em;
+  font-weight: bold;
+}
+.th23-social-options .th23-social-message.th23-social-error,
+#th23-social-meta-box .th23-social-message.th23-social-error {
+  color: #f00;
+}
+.th23-social-options .th23-social-message.th23-social-success,
+#th23-social-meta-box .th23-social-message.th23-social-success {
+  color: #390;
+}
+
+/* entry edit page - metabox */
+#th23-social-meta-box table {
+  /* shares per service table */
+  margin-top: 1em;
+}
+#th23-social-meta-box table input {
+  text-align: right;
+}

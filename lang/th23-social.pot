@@ -1,0 +1,645 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-05-16 12:50+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: th23-social.php:377
+#, php-format
+msgid "Join %s follower"
+msgstr ""
+
+#: th23-social.php:518
+#, php-format
+msgid "Already shared %s times"
+msgstr ""
+
+#: th23-social.php:678
+msgid "Displays social sharing links, eg to Facebook"
+msgstr ""
+
+#: th23-social.php:748 th23-social-admin.php:1241
+msgid "Social"
+msgstr ""
+
+#: th23-social.php:753
+msgid "Follow"
+msgstr ""
+
+#: th23-social.php:754
+msgid "Share"
+msgstr ""
+
+#: th23-social.php:765
+msgid "Always"
+msgstr ""
+
+#: th23-social.php:766
+msgid "Only on Singles"
+msgstr ""
+
+#: th23-social.php:767
+msgid "Only on Posts"
+msgstr ""
+
+#: th23-social.php:770
+msgid "Show widget"
+msgstr ""
+
+#: th23-social.php:778
+msgid "Title"
+msgstr ""
+
+#: th23-social.php:782
+msgid "Description"
+msgstr ""
+
+#: th23-social-admin.php:26
+msgid ""
+"List of available social services to share content and follow this website"
+msgstr ""
+
+#: th23-social-admin.php:27
+msgid "Details about allowed URL placeholders"
+msgstr ""
+
+#. translators: don't translate the part within the % signs
+#: th23-social-admin.php:29
+msgid ""
+"%home_url% = WordPress home URL, including proper connector for parameters"
+msgstr ""
+
+#. translators: don't translate the part within the % signs
+#: th23-social-admin.php:31
+msgid ""
+"%current_url% = Current URL visited, including proper connector for "
+"parameters"
+msgstr ""
+
+#. translators: don't translate the part within the % signs
+#: th23-social-admin.php:33
+msgid "%feed_url% = URL to RSS feed, including proper connector for parameters"
+msgstr ""
+
+#. translators: don't translate the part within the % signs
+#: th23-social-admin.php:35
+msgid ""
+"%registration_url% = URL to registration page, including proper connector "
+"for parameters"
+msgstr ""
+
+#. translators: don't translate the part within the % signs
+#: th23-social-admin.php:37
+msgid ""
+"%own_account% = Username of content author at the service (do NOT include "
+"leading @ on Twitter)"
+msgstr ""
+
+#. translators: don't translate the part within the % signs
+#: th23-social-admin.php:39
+msgid "%entry_url% = URL to current entry / post"
+msgstr ""
+
+#. translators: don't translate the part within the % signs
+#: th23-social-admin.php:41
+msgid ""
+"%entry_img% = URL to image of entry / post - either th23 Social image, "
+"defined th23 Featured image, set post thumbnail image, or first image in "
+"entry"
+msgstr ""
+
+#. translators: don't translate the part within the % signs
+#: th23-social-admin.php:43
+msgid "%entry_title% = Title of the current entry / post"
+msgstr ""
+
+#. translators: don't translate the part within the % signs
+#: th23-social-admin.php:45
+msgid ""
+"%entry_tags% = List of hashtags assigned to current entry / post - separated "
+"by commata, without leading # character"
+msgstr ""
+
+#: th23-social-admin.php:48
+msgid ""
+"It is possible to best suit the different sizes recommended by various "
+"social services with one image of 1280 x 960 pixels, keeping a 160 pixel "
+"padding around the core content."
+msgstr ""
+
+#: th23-social-admin.php:49
+msgid ""
+"<strong>Warning</strong>: Changing this settings will force re-creation of "
+"all social images with new size - resulting in loss of any manual crops done "
+"previously!"
+msgstr ""
+
+#: th23-social-admin.php:50
+msgid "Detailed image about optimal size and cropping"
+msgstr ""
+
+#: th23-social-admin.php:56
+msgid "Social Services"
+msgstr ""
+
+#: th23-social-admin.php:61
+msgid "Name"
+msgstr ""
+
+#: th23-social-admin.php:62
+msgid "Required"
+msgstr ""
+
+#: th23-social-admin.php:66
+msgid "CSS class"
+msgstr ""
+
+#: th23-social-admin.php:70
+msgid "Order"
+msgstr ""
+
+#: th23-social-admin.php:71
+msgid ""
+"Order in which the services show up (same numbers result in order as shown "
+"here)"
+msgstr ""
+
+#: th23-social-admin.php:78
+msgid "Account"
+msgstr ""
+
+#: th23-social-admin.php:79
+msgid "Own account at external service"
+msgstr ""
+
+#: th23-social-admin.php:83
+msgid "Follow URL"
+msgstr ""
+
+#: th23-social-admin.php:87
+msgid "Followable"
+msgstr ""
+
+#: th23-social-admin.php:88
+msgid "Requires Follow URL"
+msgstr ""
+
+#: th23-social-admin.php:97
+msgid "Current followers"
+msgstr ""
+
+#: th23-social-admin.php:98
+msgid ""
+"Option to manually set the current number of followers - it is NOT advisable "
+"to change this unless you are sure what you are doing"
+msgstr ""
+
+#: th23-social-admin.php:102
+msgid "Share URL"
+msgstr ""
+
+#: th23-social-admin.php:106
+msgid "Shareable"
+msgstr ""
+
+#: th23-social-admin.php:107
+msgid "Requires Share URL"
+msgstr ""
+
+#: th23-social-admin.php:170
+msgid "Follow Options"
+msgstr ""
+
+#: th23-social-admin.php:171
+msgid "Follow claim"
+msgstr ""
+
+#: th23-social-admin.php:172
+msgid ""
+"Short sentence shown above follow buttons inserted by shortcodes, blocks or "
+"content insert - for widgets specify in each widgets settings"
+msgstr ""
+
+#: th23-social-admin.php:173
+msgid "Don't miss any updates! <strong>Follow us</strong> via"
+msgstr ""
+
+#: th23-social-admin.php:179
+msgid "Follow shortcodes"
+msgstr ""
+
+#: th23-social-admin.php:180
+msgid ""
+"Shortcodes to replace by social follow bar - separate multiple ones by spaces"
+msgstr ""
+
+#: th23-social-admin.php:184 th23-social-admin.php:299
+msgid "Content insert"
+msgstr ""
+
+#: th23-social-admin.php:189
+msgid "Insert follow bar automatically after content in each entry"
+msgstr ""
+
+#: th23-social-admin.php:196 th23-social-admin.php:311
+msgid "Limit content types"
+msgstr ""
+
+#: th23-social-admin.php:197 th23-social-admin.php:312
+msgid ""
+"Singles inserts upon displaying a single post or page, but not on lists like "
+"archives - single post is similar, but does not insert on pages"
+msgstr ""
+
+#: th23-social-admin.php:201 th23-social-admin.php:316
+msgid "No limitation - always insert"
+msgstr ""
+
+#: th23-social-admin.php:202 th23-social-admin.php:317
+msgid "Only insert on singles"
+msgstr ""
+
+#: th23-social-admin.php:203 th23-social-admin.php:318
+msgid "Only insert on single posts"
+msgstr ""
+
+#: th23-social-admin.php:207 th23-social-admin.php:322
+msgid "Limit shortcodes / blocks"
+msgstr ""
+
+#: th23-social-admin.php:208 th23-social-admin.php:323
+msgid ""
+"Disabling shortcodes and blocks prevents them from being rendered, "
+"regardless of limit content type setting"
+msgstr ""
+
+#: th23-social-admin.php:212
+msgid "Insert regardless of previous follow shortcodes and blocks"
+msgstr ""
+
+#: th23-social-admin.php:213
+msgid "Only insert, if not inserted via follow shortcode or block before"
+msgstr ""
+
+#: th23-social-admin.php:214
+msgid "Insert and disable follow shortcodes and blocks"
+msgstr ""
+
+#: th23-social-admin.php:218
+msgid "List insert"
+msgstr ""
+
+#: th23-social-admin.php:219
+msgid "Lists are the homepage, archives and search results - but not feeds"
+msgstr ""
+
+#: th23-social-admin.php:224
+msgid "Insert follow bar automatically between entries in lists"
+msgstr ""
+
+#: th23-social-admin.php:231
+msgid "Every x entries"
+msgstr ""
+
+#: th23-social-admin.php:232
+msgid ""
+"Number of entries after which a follow bar is inserted, if another entry is "
+"following"
+msgstr ""
+
+#: th23-social-admin.php:239
+msgid "Total followers"
+msgstr ""
+
+#: th23-social-admin.php:240 th23-social-admin.php:334
+msgid "Sum across all services"
+msgstr ""
+
+#: th23-social-admin.php:245
+msgid "Show total number of followers"
+msgstr ""
+
+#: th23-social-admin.php:252
+msgid "Min total followers"
+msgstr ""
+
+#: th23-social-admin.php:253
+msgid ""
+"Show total follower count only, if minimum amount of followers is reached"
+msgstr ""
+
+#: th23-social-admin.php:260
+msgid "Current total followers"
+msgstr ""
+
+#: th23-social-admin.php:261
+msgid ""
+"Option to manually set the current number of total followers - it is NOT "
+"advisable to change this unless you are sure what you are doing"
+msgstr ""
+
+#: th23-social-admin.php:265
+msgid "Followers per service"
+msgstr ""
+
+#: th23-social-admin.php:270
+msgid "Show follower count per service"
+msgstr ""
+
+#: th23-social-admin.php:277
+msgid "Min followers per service"
+msgstr ""
+
+#: th23-social-admin.php:278
+msgid ""
+"Show follower count per service only, if minimum amount of followers is "
+"reached"
+msgstr ""
+
+#: th23-social-admin.php:285
+msgid "Share Options"
+msgstr ""
+
+#: th23-social-admin.php:286
+msgid "Share claim"
+msgstr ""
+
+#: th23-social-admin.php:287
+msgid ""
+"Short sentence shown above share buttons inserted by shortcodes, blocks or "
+"content insert - for widgets specify in each widgets settings"
+msgstr ""
+
+#: th23-social-admin.php:288
+msgid "Do you enjoy this post? <strong>Share it</strong> with others via"
+msgstr ""
+
+#: th23-social-admin.php:294
+msgid "Share shortcodes"
+msgstr ""
+
+#: th23-social-admin.php:295
+msgid ""
+"Shortcodes to replace by social sharing bar - separate multiple ones by "
+"spaces"
+msgstr ""
+
+#: th23-social-admin.php:304
+msgid "Insert share bar automatically after content in each entry"
+msgstr ""
+
+#: th23-social-admin.php:327
+msgid "Insert regardless of previous share shortcodes and blocks"
+msgstr ""
+
+#: th23-social-admin.php:328
+msgid "Only insert, if not inserted via share shortcode or block before"
+msgstr ""
+
+#: th23-social-admin.php:329
+msgid "Insert and disable share shortcodes and blocks"
+msgstr ""
+
+#: th23-social-admin.php:333
+msgid "Total shares"
+msgstr ""
+
+#: th23-social-admin.php:339
+msgid "Show total number of shares"
+msgstr ""
+
+#: th23-social-admin.php:346
+msgid "Min total shares"
+msgstr ""
+
+#: th23-social-admin.php:347
+msgid "Show total share count only, if minimum amount of shares is reached"
+msgstr ""
+
+#: th23-social-admin.php:354
+msgid "Shares per service"
+msgstr ""
+
+#: th23-social-admin.php:359
+msgid "Show share count per service"
+msgstr ""
+
+#: th23-social-admin.php:366
+msgid "Min shares per service"
+msgstr ""
+
+#: th23-social-admin.php:367
+msgid ""
+"Show share count per service only, if minimum amount of shares is reached"
+msgstr ""
+
+#: th23-social-admin.php:374
+msgid "Social Image"
+msgstr ""
+
+#: th23-social-admin.php:376
+msgid "Width"
+msgstr ""
+
+#: th23-social-admin.php:377
+msgid "Width of image promoted to social services eg upon sharing, in pixels"
+msgstr ""
+
+#: th23-social-admin.php:384
+msgid "Height"
+msgstr ""
+
+#: th23-social-admin.php:385
+msgid "Height of image promoted to social services eg upon sharing, in pixels"
+msgstr ""
+
+#: th23-social-admin.php:392
+msgid "Default"
+msgstr ""
+
+#: th23-social-admin.php:393
+msgid ""
+"Selected default image will be promoted to social services on overview pages "
+"and individual posts / pages without a specific social image defined"
+msgstr ""
+
+#: th23-social-admin.php:401
+msgid "Cache"
+msgstr ""
+
+#: th23-social-admin.php:402
+msgid "Reset auto-excerpts"
+msgstr ""
+
+#: th23-social-admin.php:407
+msgid ""
+"Delete cached auto-excerpts for entries - will be recreated automatically, "
+"when needed"
+msgstr ""
+
+#. translators: "Professional" as name of the version
+#: th23-social-admin.php:503
+#, php-format
+msgid "Upgrade to %s version"
+msgstr ""
+
+#: th23-social-admin.php:512
+msgid "Warning"
+msgstr ""
+
+#: th23-social-admin.php:512
+msgid ""
+"Your are running a multisite installation - the plugin is not designed for "
+"this setup and therefore might not work properly"
+msgstr ""
+
+#. translators: 1: "Professional" as name of the version, 2: "...-pro.php" as file name, 3: version number of the PRO file, 4: version number of main file, 5: link to WP update page, 6: link to "th23.net" plugin download page
+#: th23-social-admin.php:517
+#, php-format
+msgid ""
+"The version of the %1$s file (%2$s, version %3$s) does not match with the "
+"overall plugin (version %4$s) - please make sure you update the overall "
+"plugin to the latest version via the <a href=\"%5$s\">automatic update "
+"function</a> and upload the latest version of the %1$s file from %6$s onto "
+"your webserver"
+msgstr ""
+
+#: th23-social-admin.php:518 th23-social-admin.php:1154
+msgid "Error"
+msgstr ""
+
+#: th23-social-admin.php:719
+msgid "Settings"
+msgstr ""
+
+#. translators: parses in plugin version number (optionally) together with upgrade link
+#: th23-social-admin.php:730 th23-social-admin.php:734
+#: th23-social-admin.php:1067 th23-social-admin.php:1071
+#, php-format
+msgid "Version %s"
+msgstr ""
+
+#: th23-social-admin.php:738 th23-social-admin.php:1079
+msgid "Support"
+msgstr ""
+
+#: th23-social-admin.php:779
+msgid "Social image"
+msgstr ""
+
+#: th23-social-admin.php:780
+msgid "Save social image"
+msgstr ""
+
+#: th23-social-admin.php:814 th23-social-admin.php:855
+msgid "Done"
+msgstr ""
+
+#: th23-social-admin.php:814
+msgid "Cache cleared"
+msgstr ""
+
+#: th23-social-admin.php:855
+msgid "Settings saved"
+msgstr ""
+
+#: th23-social-admin.php:933
+msgid "+"
+msgstr ""
+
+#: th23-social-admin.php:995
+msgid "-"
+msgstr ""
+
+#: th23-social-admin.php:1056
+msgid "Save Changes"
+msgstr ""
+
+#. translators: parses in plugin author name
+#: th23-social-admin.php:1077
+#, php-format
+msgid "By %s"
+msgstr ""
+
+#: th23-social-admin.php:1082
+msgid "Visit plugin site"
+msgstr ""
+
+#. translators: 1: option name, 2: opening a tag of link to support/ plugin page, 3: closing a tag of link
+#: th23-social-admin.php:1156
+#, php-format
+msgid ""
+"Invalid combination of input field and default value for \"%1$s\" - please "
+"%2$scontact the plugin author%3$s"
+msgstr ""
+
+#: th23-social-admin.php:1249
+msgid "Image promoted to social services upon sharing this entry"
+msgstr ""
+
+#: th23-social-admin.php:1264
+msgid ""
+"Manually set current number of shares per service and total for this entry - "
+"it is NOT advisable to change this unless you are sure what you are doing"
+msgstr ""
+
+#: th23-social-admin.php:1272
+msgid "Total"
+msgstr ""
+
+#: th23-social-admin.php:1296
+msgid "Add social image"
+msgstr ""
+
+#: th23-social-admin.php:1307
+msgid "Crop Social Image"
+msgstr ""
+
+#: th23-social-admin.php:1307
+msgid "Crop"
+msgstr ""
+
+#: th23-social-admin.php:1309
+msgid "Change"
+msgstr ""
+
+#: th23-social-admin.php:1310
+msgid "Remove"
+msgstr ""
+
+#: th23-social-admin.php:1326 th23-social-admin.php:1364
+msgid "Error: Invalid ID!"
+msgstr ""
+
+#: th23-social-admin.php:1339
+msgid "Error: Could not generate required image size!"
+msgstr ""
+
+#: th23-social-admin.php:1348
+msgid "Error: Could not update social image!"
+msgstr ""
+
+#: th23-social-admin.php:1374
+msgid "Error: Could not delete social image!"
+msgstr ""
+
+#: th23-social-admin.php:1387
+msgid "Error: Invalid request!"
+msgstr ""
+
+#: th23-social-admin.php:1392
+msgid "Error: No permission!"
+msgstr ""
